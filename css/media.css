@@ -1,0 +1,87 @@
+/* メディアクエリ。レスポンシブ対応 */
+/* 1200px以下 resposive */
+@media screen and (max-width:1200px){
+  .wrapper-top {
+    width: 97%;
+}
+.wrapper-main {
+  width: 97%;
+}
+.pick-up {
+  margin-left: 2%;
+}
+.read-more {
+  margin-left: 38%;
+}
+.wrapper-left{
+  width: 80%;
+}
+.wrapper-left-content {
+  width: 100%;
+}
+.wrapper-right{
+  width: 36%;
+  margin-left: 4%;
+}
+.read-more-main {
+  margin-left: 44%;
+}
+.footer-wrapper {
+  width: 97%;
+}
+.footer-left {
+  width: 30%;
+  margin-right: 5%;
+}
+.footer-center {
+  width: 30%;
+  margin-right: 5%;
+}
+.footer-right {
+  width: 30%;
+}
+
+}
+
+
+/* レスポンシブ対応　760px以下 */
+@media screen and (max-width:760px){
+  .wrapper-top {
+    flex-direction: column;
+    width: 95.5%;
+}
+.pick-up {
+  margin-left: 0;
+  width: 100%;
+}
+.read-more {
+  margin-left: 44%;
+  margin-bottom: 32px;
+}
+.wrapper-main {
+  width: 95%;
+  flex-direction: column;
+}
+.wrapper-left {
+  width: 100%;
+}
+.wrapper-right {
+  width: 100%;
+  margin-left: 0px;
+}
+.footer-wrapper {
+  flex-direction: column;
+  width: 95%;
+}
+.footer-left {
+  width: 100%;
+}
+.footer-center {
+  width: 100%;
+}
+.footer-right {
+  width: 100%;
+}
+
+
+}
